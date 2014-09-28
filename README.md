@@ -7,6 +7,7 @@
 
 # 5374について
 For English please see [LOCALIZE_en.md](LOCALIZE_en.md).
+
 ##「いつ、どのゴミが収集されているのか？」
 
 ゴミの問題はどの地域でも深刻になりつつあります。
