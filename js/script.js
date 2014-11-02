@@ -438,7 +438,9 @@ $(function() {
     var value = getSelectedGroupName();
     $select_group.val(value);
     createAreaSelect();
-    console.log(value);
+    if(window.console && typeof window.console.log === 'function') {
+      console.log(value);
+    }
     if (value != -1) { $select_area.show(); }
     $select_area.val(getSelectedAreaName());
     onChangeSelect(getSelectedGroupName(), getSelectedAreaName());
